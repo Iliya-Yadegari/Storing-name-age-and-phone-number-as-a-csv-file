@@ -16,7 +16,6 @@ window = Tk()
 
 window.title('Storage')
 
-
 name_label = Label(window,text = 'Enter your name ===>').grid(row = 0, column = 0, padx = 10, pady = 10)
 name_ent = Entry(window)
 age_label = Label(window,text = 'Enter your age ===>').grid(row = 1, column = 0, padx = 10, pady = 10)
@@ -28,6 +27,5 @@ submit_btn = Button(window,text = 'Submit',width = 20,height = 3,command = res_f
 name_ent.grid(row = 0, column = 1, padx = 10, pady = 10)
 age_ent.grid(row = 1, column = 1, padx = 10, pady = 10)
 phone_ent.grid(row = 2, column = 1, padx = 10, pady = 10)
-
 
 window.mainloop()
