@@ -10,7 +10,7 @@ def res_fun():
         csvwriter = csv.writer(csvfile)
         
         csvwriter.writerow(fields)
-        csvwriter.writerows(rows)
+        csvwriter.writerow(rows)
 
 window = Tk()
 
